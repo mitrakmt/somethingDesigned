@@ -1,5 +1,8 @@
 .app {
-  text-align: center;
+  // The app container must be the height of the viewport for scroll snapping to work correctly
+  height: 100vh;
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
 }
 
 .app-header {

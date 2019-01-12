@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 
-import "./home.scss";
+import "./home3.scss";
 
 class Home extends Component {
   render() {
     return (
-      <div className="home" id="home">
-        <h1>Home</h1>
+      <div className="home3" id="home3">
+        <h1>Home 3</h1>
       </div>
     );
   }
