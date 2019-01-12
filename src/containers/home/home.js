@@ -1,6 +1,6 @@
-import React, { Component } from "react";
+import React, { Component } from 'react'
 
-import "./home.scss";
+import './home.scss'
 
 class Home extends Component {
   render() {
@@ -8,8 +8,8 @@ class Home extends Component {
       <div className="home" id="home">
         <h1>Home</h1>
       </div>
-    );
+    )
   }
 }
 
-export default Home;
+export default Home

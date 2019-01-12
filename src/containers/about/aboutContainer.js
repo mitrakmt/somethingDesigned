@@ -1,6 +1,6 @@
-import React, { Component } from "react";
+import React, { Component } from 'react'
 import AboutView from 'components/about/aboutView'
-import "./aboutContainer.scss";
+import './aboutContainer.scss'
 
 class AboutContainer extends Component {
   render() {
@@ -8,8 +8,8 @@ class AboutContainer extends Component {
       <div className="aboutContainer" id="about">
         <AboutView />
       </div>
-    );
+    )
   }
 }
 
-export default AboutContainer;
+export default AboutContainer
