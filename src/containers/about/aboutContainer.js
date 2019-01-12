@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 
-import "./about.scss";
+import "./aboutContainer.scss";
 
-class About extends Component {
+class AboutContainer extends Component {
   render() {
     return (
-      <div className="about" id="about">
+      <div className="aboutContainer" id="about">
         <h1>We Can Turn Something</h1>
         <p>Great</p>
         <div>
@@ -21,4 +21,4 @@ Chip Herter, Director of Syncronization, BUTTER MUSIC AND SOUND `}</p>
   }
 }
 
-export default About;
+export default AboutContainer;
