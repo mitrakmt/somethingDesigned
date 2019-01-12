@@ -1,11 +1,11 @@
-import React, { Component } from "react";
+import React, { Component } from 'react'
 
-import Home from "containers/home/home";
-import Home2 from "containers/home/home2";
-import Home3 from "containers/home/home3";
-import About from "containers/home/components/about/about";
+import Home from 'containers/home/home'
+import Home2 from 'containers/home/home2'
+import Home3 from 'containers/home/home3'
+import AboutContainer from 'containers/about/aboutContainer'
 
-import "./app.scss";
+import './app.scss'
 
 class App extends Component {
   render() {
@@ -14,10 +14,10 @@ class App extends Component {
         <Home />
         <Home2 />
         <Home3 />
-        <About />
+        <AboutContainer />
       </div>
-    );
+    )
   }
 }
 
-export default App;
+export default App
