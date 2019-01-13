@@ -11,12 +11,12 @@ const aboutView = () => (
     </div>
     <div className="skillsColumn-list">
       {listOfSkills.map(skill => (
-        <span>{skill}</span>
+        <p>{skill}</p>
       ))}
     </div>
     <div className="skillsColumn-descriptions">
       {listOfDescriptions.map(description => (
-        <span>{description}</span>
+        <p>{description}</p>
       ))}
     </div>
   </Fragment>
