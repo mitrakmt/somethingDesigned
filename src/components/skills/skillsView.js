@@ -2,6 +2,8 @@ import React, { Fragment } from 'react'
 import listOfDescriptions from './descriptionsList'
 import listOfSkills from './skillsList'
 
+import './skillsView.scss'
+
 const aboutView = () => (
   <Fragment>
     <div className="skillsColumn-header">

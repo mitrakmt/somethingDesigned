@@ -1,0 +1,20 @@
+.skillsColumn {
+  &-descriptions {
+    font-family: Helvetica;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-align: justify;
+  }
+  &-header {
+  font-family: Helvetica;
+  font-size: 90px;
+  color: #FFFFFF;
+  text-align: center;
+  }
+  &-list {
+    font-family: NanumPen;
+    font-size: 48px;
+    color: #FFFFFF;
+    text-align: justify;
+  }
+}
