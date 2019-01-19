@@ -7,6 +7,7 @@ import './skillsView.scss'
 const aboutView = () => (
   <Fragment>
     <div className="skillsColumn-header">
+      <div className="skillsColumn-verticalRule" />
       <h2>Skills</h2>
     </div>
     <div className="skillsColumn-list">
