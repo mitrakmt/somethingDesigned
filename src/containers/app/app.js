@@ -8,6 +8,7 @@ import WhatWeContainer from 'containers/what-we/whatWeContainer'
 import SkillsContainer from 'containers/skills/skillsContainer'
 
 import './app.scss'
+import '../../styles/fonts.scss'
 
 class App extends Component {
   render() {
