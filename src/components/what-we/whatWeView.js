@@ -4,9 +4,11 @@ import './whatWeView.scss'
 
 const what = () => (
   <Fragment>
+    <div className="whatWeView-verticalRule" />
     <div className="whatWeView-header">
-      <div className="whatWeView-verticalRule" />
-      <h2>What We</h2>
+      <h2>
+        What <span className="whatWeView-header-coloredText">We</span>
+      </h2>
     </div>
     <p className="whatWeView-description">
       WE’RE DESIGNERS & COPYWRITERS WHO ALSO KNOW MARKETING STRATEGY.

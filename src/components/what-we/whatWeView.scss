@@ -3,7 +3,6 @@
     font-family: Helvetica;
     display: flex;
     color: #ffffff;
-    position: relative;
 
     h2 {
       font-size: 90px;
@@ -18,16 +17,19 @@
       margin: 0;
       width: 15vw;
     }
+
+    &-coloredText {
+      color: #fe2020;
+    }
   }
   &-verticalRule {
     border: none;
     border-left: 4px solid #ffffff;
-    height: 100vh;
+    height: 100%;
     width: 0px;
     display: block;
     position: absolute;
     left: 12vw;
-    transform: translateY(-35%);
   }
   &-description {
     font-family: NanumPen;
