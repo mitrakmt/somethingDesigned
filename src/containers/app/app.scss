@@ -5,6 +5,10 @@
   overflow-y: scroll;
 }
 
+body {
+  overflow: hidden;
+}
+
 .app-header {
   background-color: #282c34;
   min-height: 100vh;

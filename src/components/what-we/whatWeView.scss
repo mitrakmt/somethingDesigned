@@ -1,0 +1,60 @@
+.whatWeView {
+  &-header {
+    font-family: Helvetica;
+    display: flex;
+    color: #ffffff;
+
+    h2 {
+      font-size: 90px;
+      background-color: #ffdacf;
+      z-index: 2;
+      writing-mode: vertical-lr;
+      text-orientation: sideways;
+      transform: rotate(-180deg);
+      text-transform: uppercase;
+      padding-top: 30px;
+      padding-bottom: 30px;
+      margin: 0;
+      margin-bottom: 12vh;
+      width: 15vw;
+    }
+
+    &-coloredText {
+      color: #fe2020;
+    }
+  }
+  &-verticalRule {
+    border: none;
+    border-left: 4px solid #ffffff;
+    height: 100%;
+    width: 0px;
+    display: block;
+    position: absolute;
+    left: 12vw;
+  }
+  &-description {
+    font-family: NanumPen;
+    text-align: justify;
+    font-size: 36px;
+    color: #fe2020;
+    padding: 20px;
+    margin: 30px;
+    padding-left: 0;
+    margin-left: 0;
+    z-index: 3;
+  }
+  &-arrow {
+    transform: rotate(90deg);
+    font-family: NanumPen;
+    font-size: 30px;
+    color: #ffffff;
+    letter-spacing: -3.2px;
+    text-align: center;
+    line-height: 89px;
+    position: absolute;
+    bottom: 25px;
+    margin-left: 100px;
+    width: 100%;
+    text-align: center;
+  }
+}

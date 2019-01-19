@@ -1,0 +1,10 @@
+#whatWe {
+  align-items: center;
+  background-color: rgba(255, 200, 183, 0.67);
+  color: #fff;
+  display: grid;
+  grid-template-columns: 20% 80%;
+  height: 100vh;
+  scroll-snap-align: start;
+  position: relative;
+}
