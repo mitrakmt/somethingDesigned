@@ -4,6 +4,7 @@ import Home from 'containers/home/home'
 import Home2 from 'containers/home/home2'
 import Home3 from 'containers/home/home3'
 import AboutContainer from 'containers/about/aboutContainer'
+import SkillsContainer from 'containers/skills/skillsContainer'
 
 import './app.scss'
 
@@ -15,6 +16,7 @@ class App extends Component {
         <Home2 />
         <Home3 />
         <AboutContainer />
+        <SkillsContainer />
       </div>
     )
   }

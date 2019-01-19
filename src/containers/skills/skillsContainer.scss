@@ -1,0 +1,9 @@
+#skills {
+  align-items: center;
+  background-color: #FE5C5C;
+  color: #fff;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  height: 100vh;
+  scroll-snap-align: start;
+}
