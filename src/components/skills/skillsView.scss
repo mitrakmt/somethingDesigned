@@ -1,0 +1,36 @@
+.skillsColumn {
+  &-descriptions {
+    font-family: "Helvetica Compressed";
+    font-size: 18px;
+    color: #FFFFFF;
+    text-align: justify;
+  }
+  &-header {
+    font-family: "Helvetica";
+    font-size: 90px;
+    color: #FFFFFF;
+    text-align: center;
+
+    h2 {
+      background-color: #FE5C5C;
+      position: relative;
+      z-index: 2;
+    }
+  }
+  &-list {
+    font-family: "Nanum Pen Script";
+    font-size: 48px;
+    color: #FFFFFF;
+    text-align: justify;
+  }
+  &-verticalRule { 
+    border: none;
+    border-left: 1px solid #D8D8D8;
+    height: 100vh;
+    width: 0px;
+    display: block;
+    position: absolute;
+    left: 17vw; 
+    transform: translateY(-35%)
+  }
+}
