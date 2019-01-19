@@ -12,7 +12,7 @@ import './app.scss'
 class App extends Component {
   render() {
     return (
-      <div className="app">
+      <div className="app" id="root">
         <Home />
         <Home2 />
         <Home3 />

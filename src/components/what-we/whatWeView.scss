@@ -1,21 +1,22 @@
 .whatWeView {
   &-header {
     font-family: Helvetica;
+    display: flex;
     color: #ffffff;
     position: relative;
-    height: 30%;
 
     h2 {
       font-size: 90px;
       background-color: #ffdacf;
       z-index: 2;
-      -webkit-transform: rotate(-90deg);
-      transform: rotate(-90deg);
-      white-space: nowrap;
+      writing-mode: vertical-lr;
+      text-orientation: sideways;
+      transform: rotate(-180deg);
       text-transform: uppercase;
+      padding-top: 30px;
+      padding-bottom: 30px;
       margin: 0;
-      width: 100%;
-      padding: 30px;
+      width: 15vw;
     }
   }
   &-verticalRule {
@@ -37,6 +38,7 @@
     margin: 30px;
     padding-left: 0;
     margin-left: 0;
+    z-index: 3;
   }
   &-arrow {
     transform: rotate(90deg);
