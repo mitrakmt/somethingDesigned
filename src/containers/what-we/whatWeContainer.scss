@@ -1,9 +1,11 @@
 #whatWe {
-  display: flex;
+  align-items: center;
+  background-color: rgba(255, 200, 183, 0.67);
+  color: #fff;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-gap: 10px;
   height: 100vh;
   scroll-snap-align: start;
-}
-
-.whatWeContainer {
-  background: rgba(255, 200, 183, 0.67);
+  position: relative;
 }

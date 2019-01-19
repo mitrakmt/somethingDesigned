@@ -1,27 +1,50 @@
 .whatWeView {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   &-header {
-    display: flex;
-    justify-content: center;
-    width: 200px;
-    &-title {
+    font-family: Helvetica;
+    font-size: 90px;
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+    height: 100%;
+
+    h2 {
+      background-color: #ffdacf;
+      position: relative;
+      z-index: 2;
+      -webkit-transform: rotate(-90deg);
       transform: rotate(-90deg);
-      font-family: Helvetica;
-      font-size: 90px;
-      color: #ffffff;
-      text-align: center;
-      margin: 0;
-      white-space: nowrap;
     }
   }
-
-  &-text {
-    max-width: 70%;
+  &-verticalRule {
+    border: none;
+    border-left: 4px solid #ffffff;
+    height: 100vh;
+    width: 0px;
+    display: block;
+    position: absolute;
+    left: 17vw;
+    transform: translateY(-35%);
+  }
+  &-description {
     font-family: NanumPen;
+    color: #ffffff;
+    text-align: justify;
     font-size: 36px;
     color: #fe2020;
+    padding: 20px;
+  }
+  &-arrow {
+    transform: rotate(90deg);
+    font-family: NanumPen;
+    font-size: 30px;
+    color: #ffffff;
+    letter-spacing: -3.2px;
+    text-align: center;
+    line-height: 89px;
+    position: absolute;
+    bottom: 25px;
+    margin-left: 100px;
+    width: 100%;
     text-align: center;
   }
 }
