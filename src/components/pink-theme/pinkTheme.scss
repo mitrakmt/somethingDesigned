@@ -1,4 +1,4 @@
-.whatWeView {
+.pinkTheme {
   &-header {
     font-family: Helvetica;
     display: flex;
@@ -22,6 +22,14 @@
     &-coloredText {
       color: #fe2020;
     }
+  }
+  &-quotes {
+    font-family: NanumPen;
+    font-size: 200px;
+    color: #fe5c5c;
+    text-align: center;
+    margin: 0;
+    height: 50px;
   }
   &-verticalRule {
     border: none;

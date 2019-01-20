@@ -5,9 +5,9 @@
   text-align: center;
   justify-content: center;
   height: 100%;
+  font-family: Nanum Pen Script;
 
   &-small {
-    font-family: NanumPen;
     font-size: 90px;
     color: rgba(254, 113, 92, 0.71);
     text-align: center;
@@ -15,7 +15,6 @@
   }
 
   &-medium {
-    font-family: NanumPen;
     font-size: 90px;
     color: rgba(254, 113, 92, 0.97);
     text-align: center;
@@ -23,7 +22,6 @@
   }
 
   &-large {
-    font-family: NanumPen;
     font-size: 130px;
     color: #fe2020;
     text-align: center;
@@ -31,7 +29,6 @@
   }
 
   &-holla {
-    font-family: NanumPen;
     font-size: 36px;
     color: #f6b4b4;
     text-align: center;
