@@ -1,9 +1,11 @@
 .skillsColumn {
   &-descriptions {
-    font-family: 'Helvetica Compressed';
+    font-family: 'Helvetica';
     font-size: 18px;
+    font-weight: 500;
     color: #ffffff;
     text-align: justify;
+    text-transform: uppercase;
   }
   &-header {
     font-family: 'Helvetica';
@@ -25,6 +27,7 @@
     font-size: 48px;
     color: #ffffff;
     text-align: justify;
+    text-transform: uppercase;
   }
   &-verticalRule {
     border: none;
@@ -33,6 +36,6 @@
     width: 0px;
     display: block;
     position: absolute;
-    left: 17vw;
+    left: 12vw;
   }
 }
