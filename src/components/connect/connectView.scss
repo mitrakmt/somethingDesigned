@@ -1,0 +1,44 @@
+.connectView {
+  display: flex;
+  flex-direction: column;
+  color: black;
+  text-align: center;
+  justify-content: center;
+  height: 100%;
+
+  &-small {
+    font-family: NanumPen;
+    font-size: 90px;
+    color: rgba(254, 113, 92, 0.71);
+    text-align: center;
+    margin: 0;
+  }
+
+  &-medium {
+    font-family: NanumPen;
+    font-size: 90px;
+    color: rgba(254, 113, 92, 0.97);
+    text-align: center;
+    margin: 0;
+  }
+
+  &-large {
+    font-family: NanumPen;
+    font-size: 130px;
+    color: #fe2020;
+    text-align: center;
+    margin: 0;
+  }
+
+  &-holla {
+    font-family: NanumPen;
+    font-size: 36px;
+    color: #f6b4b4;
+    text-align: center;
+    margin: 0;
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+  }
+}
