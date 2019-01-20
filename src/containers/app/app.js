@@ -6,6 +6,7 @@ import Home3 from 'containers/home/home3'
 import AboutContainer from 'containers/about/aboutContainer'
 import WhatWeContainer from 'containers/what-we/whatWeContainer'
 import SkillsContainer from 'containers/skills/skillsContainer'
+import InTheirContainer from 'containers/in-their/inTheirContainer'
 
 import './app.scss'
 import '../../styles/fonts.scss'
@@ -20,6 +21,7 @@ class App extends Component {
         <AboutContainer />
         <WhatWeContainer />
         <SkillsContainer />
+        <InTheirContainer />
       </div>
     )
   }
