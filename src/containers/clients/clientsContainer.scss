@@ -1,0 +1,11 @@
+#clients {
+  align-items: center;
+  background-color: #FE5C5C;
+  color: #fff;
+  display: grid;
+  grid-template-columns: 25% 75%;
+  height: 100vh;
+  justify-items: center;
+  position: relative;
+  scroll-snap-align: start;
+}

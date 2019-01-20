@@ -1,0 +1,43 @@
+.clientsColumn {
+  &-descriptions {
+    font-family: 'Helvetica Compressed';
+    font-size: 18px;
+    color: #ffffff;
+    text-align: justify;
+  }
+  &-header {
+    font-family: 'Helvetica';
+    color: #ffffff;
+    text-align: center;
+
+    h2 {
+      font-size: 90px;
+      font-weight: 500;
+      background-color: #fe5c5c;
+      padding: 50px 0;
+      position: relative;
+      text-transform: uppercase;
+      z-index: 2;
+    }
+  }
+  &-list {
+    color: #ffffff;
+    display: grid;
+    font-family: 'Nanum Pen Script';
+    font-size: 48px;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: justify;
+    text-transform: uppercase;
+    width: 100%;
+    
+  }
+  &-verticalRule {
+    border: none;
+    border-left: 4px solid #d8d8d8;
+    height: 100vh;
+    width: 0px;
+    display: block;
+    position: absolute;
+    left: 12vw;
+  }
+}
