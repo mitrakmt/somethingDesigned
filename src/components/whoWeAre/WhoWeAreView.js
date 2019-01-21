@@ -1,13 +1,15 @@
 import React, { Fragment } from 'react'
+// import listOfDescriptions from './descriptionsList'
+// import listOfSkills from './skillsList'
 
-import './aboutView.scss'
+import './whoWeAreView.scss'
 
-const aboutView = () => (
+const WhoWeAreView = () => (
   <Fragment>
-    <div className="aboutView">
-      <h1 className="aboutView-title">We Can Turn Something</h1>
-      <p className="aboutView-subtitle">Great</p>
-      <p className="aboutView-text">
+    <div className="whoWeAreView">
+      <h1 className="whoWeAreView-title">We Can Turn Something</h1>
+      <p className="whoWeAreView-subtitle">Great</p>
+      <p className="whoWeAreView-text">
         The team at Something Designed is packed full of professional miracle
         workers. Their artistic direction, creative input and thorough attention
         to detail is invaluable. We came to them with a half-baked idea, and
@@ -25,4 +27,4 @@ const aboutView = () => (
   </Fragment>
 )
 
-export default aboutView
+export default WhoWeAreView
