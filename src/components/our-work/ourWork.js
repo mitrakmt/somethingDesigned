@@ -7,7 +7,12 @@ const OurWork = props => (
     <div className="ourWork">
       <div className="ourWork-grid">
         {props.images.map(image => (
-          <img src={image} className="ourWork-grid-image" alt="our work" />
+          <img
+            src={image}
+            className="ourWork-grid-image"
+            alt="our work"
+            key={`ourWork-image-${image}`}
+          />
         ))}
       </div>
     </div>

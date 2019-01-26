@@ -36,17 +36,23 @@ const HomeView2 = () => (
     <div className="homeView2">
       <div className="homeView2-col">
         {firstColumn.map(word => (
-          <p className="homeView2-text">{word}</p>
+          <p className="homeView2-text" key={`homeView2-${word}`}>
+            {word}
+          </p>
         ))}
       </div>
       <div className="homeView2-col">
         {secondColumn.map(word => (
-          <p className="homeView2-text">{word}</p>
+          <p className="homeView2-text" key={`homeView2-${word}`}>
+            {word}
+          </p>
         ))}
       </div>
       <div className="homeView2-col-centered">
         {thirdColumn.map(word => (
-          <p className="homeView2-text">{word}</p>
+          <p className="homeView2-text" key={`homeView2-${word}`}>
+            {word}
+          </p>
         ))}
         <p className="homeView2-blackText">(insert punch)</p>
       </div>
