@@ -1,16 +1,9 @@
-.skillsColumn {
-  &-descriptions {
-    font-family: 'Helvetica';
-    font-size: 18px;
-    font-weight: 500;
-    color: #ffffff;
-    text-align: justify;
-    text-transform: uppercase;
-  }
+.clientsColumn {
   &-header {
     font-family: 'Helvetica';
     color: #ffffff;
     text-align: center;
+    width: 30%;
 
     h2 {
       font-size: 90px;
@@ -20,14 +13,34 @@
       position: relative;
       text-transform: uppercase;
       z-index: 2;
+
+      @media screen and (max-width: 1366px) {
+        font-size: 72px;
+      }
     }
   }
   &-list {
+    color: #ffffff;
     font-family: 'Nanum Pen Script';
     font-size: 48px;
-    color: #ffffff;
-    text-align: justify;
     text-transform: uppercase;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @media screen and (max-width: 1366px) {
+      font-size: 38px;
+    }
+
+    &-column {
+      &:first-of-type {
+        text-align: right;
+        margin-right: 150px;
+      }
+    }
+    
   }
   &-verticalRule {
     border: none;
@@ -37,5 +50,6 @@
     display: block;
     position: absolute;
     left: 12vw;
+    top: 0;
   }
 }

@@ -4,7 +4,7 @@ import listOfSkills from './skillsList'
 
 import './skillsView.scss'
 
-const aboutView = () => (
+const skillsView = () => (
   <Fragment>
     <div className="skillsColumn-header">
       <div className="skillsColumn-verticalRule" />
@@ -23,4 +23,4 @@ const aboutView = () => (
   </Fragment>
 )
 
-export default aboutView
+export default skillsView

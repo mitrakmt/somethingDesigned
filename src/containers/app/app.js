@@ -9,6 +9,7 @@ import SkillsContainer from 'containers/skills/skillsContainer'
 import MethodContainer from 'containers/method/methodContainer'
 import ConnectContainer from 'containers/connect/connectContainer'
 import InTheirContainer from 'containers/in-their/inTheirContainer'
+import ClientsContainer from 'containers/clients/clientsContainer'
 
 import './app.scss'
 import '../../styles/fonts.scss'
@@ -24,6 +25,7 @@ class App extends Component {
         <WhatWeContainer />
         <SkillsContainer />
         <MethodContainer />
+        <ClientsContainer />
         <InTheirContainer />
         <ConnectContainer />
       </div>
