@@ -1,0 +1,36 @@
+.homeView2 {
+  display: flex;
+  color: black;
+  justify-content: center;
+  font-family: Nanum Pen Script;
+  height: 100vh;
+  scroll-snap-align: start;
+
+  &-col {
+    flex-grow: 1;
+    padding: 30px;
+    &-centered {
+      padding: 30px;
+      height: 80%;
+      margin-right: 12vw;
+      & * {
+        margin-bottom: 6vh !important;
+      }
+    }
+  }
+
+  &-text {
+    font-family: Nanum Pen Script;
+    font-size: 72px;
+    color: #fe2020;
+    margin: 0;
+  }
+  &-blackText {
+    font-family: helvetica;
+    font-size: 40px;
+    color: black;
+    margin: 0;
+    margin-top: -6vh;
+    font-weight: 300;
+  }
+}
