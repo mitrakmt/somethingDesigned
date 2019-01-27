@@ -5,9 +5,9 @@ import './homeView1.scss'
 const HomeView1 = () => (
   <Fragment>
     <div className="homeView1">
-      <h2 className="homeView1-small">SOME</h2>
-      <h2 className="homeView1-medium">THING</h2>
-      <h2 className="homeView1-large">FUN</h2>
+      <h2 className="homeView1-small">some</h2>
+      <h2 className="homeView1-medium">thing</h2>
+      <h2 className="homeView1-large">fun</h2>
     </div>
   </Fragment>
 )

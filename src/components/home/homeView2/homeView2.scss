@@ -9,7 +9,7 @@
   &-col {
     flex-grow: 1;
     padding: 30px;
-    &-centered {
+    &--centered {
       padding: 30px;
       height: 80%;
       margin-right: 12vw;
@@ -23,6 +23,7 @@
     font-family: Nanum Pen Script;
     font-size: 72px;
     color: #fe2020;
+    text-transform: uppercase;
     margin: 0;
   }
   &-blackText {
