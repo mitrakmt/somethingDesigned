@@ -1,12 +1,16 @@
-.clientsColumn {
+.businessWonColumn {
   &-header {
     font-family: 'Helvetica';
     color: #ffffff;
-    text-align: center;
-    width: 30%;
+    width: 100%;
+    padding: 0 0 0 100px;
+
+    @media screen and (min-width: 1500px) {
+      width: 30%;
+    }
 
     h2 {
-      font-size: 90px;
+      font-size: 70px;
       font-weight: 500;
       background-color: #fe5c5c;
       padding: 50px 0;
@@ -17,6 +21,20 @@
       @media screen and (max-width: 1366px) {
         font-size: 72px;
       }
+    }
+  }
+  &-textContainer {
+    padding: 40px;
+    max-width: 1000px;
+
+    @media screen and (max-width: 1300px) {
+      text-align: center;
+    }
+    &-text {
+      font-family: 'Nanum Pen Script';
+      font-size: 36px;
+      color: #ffffff;
+      text-transform: uppercase;
     }
   }
   &-list {
@@ -39,6 +57,9 @@
         text-align: right;
         margin-right: 150px;
       }
+      font-family: 'Nanum Pen Script';
+      font-size: 36px;
+      color: #ffffff;
     }
   }
   &-verticalRule {
