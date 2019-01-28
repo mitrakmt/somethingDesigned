@@ -1,9 +1,15 @@
 .whoWeAreView {
+  // display: grid;
   &-title {
     font-family: Helvetica;
     font-size: 64px;
     color: #ffd3d3;
     text-align: center;
+    text-transform: uppercase;
+    width: 475px;
+
+    align-self: center;
+    justify-self: center;
   }
   &-subtitle {
     font-family: Nanum Pen Script;
@@ -17,4 +23,16 @@
     color: #ffffff;
     text-align: justify;
   }
+  &-textContainer {
+    padding: 150px;
+  }
+  &-titleContainer {
+    display: grid;
+    
+  }
+}
+
+
+.mariahsFace {
+  display: 'pretty'
 }
