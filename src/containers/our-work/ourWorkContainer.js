@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import OurWork from 'components/our-work/ourWork'
+import WorkPreviewModal from 'components/work-preview-modal/workPreviewModal'
 
 // 1803
 import image1803_1 from 'images/1803/1803-1.png'
@@ -77,7 +78,9 @@ import './ourWorkContainer.scss'
 class OurWorkContainer extends Component {
   constructor(props) {
     super(props)
-    this.state = {}
+    this.state = {
+      workPreviewModalOpen: false,
+    }
 
     this.images = [
       image1803_1,
@@ -110,12 +113,27 @@ class OurWorkContainer extends Component {
       nike4,
       nike5,
       nike6,
+      nike7,
+      nike8,
       pink1,
       pink2,
       pink3,
       pink4,
       sirius1,
       sirius2,
+      sirius3,
+      sirius4,
+      sirius5,
+      sirius6,
+      snackNation1,
+      snackNation2,
+      snackNation3,
+      snackNation4,
+      vw1,
+      vw2,
+      vw3,
+      vw4,
+      vw5,
     ]
 
     // this.images = [
@@ -127,10 +145,32 @@ class OurWorkContainer extends Component {
     //   [nike1, nike2, nike3, nike4, nike5],
     // ]
   }
+
+  openWorkPreviewModal = () => {
+    this.setState({
+      workPreviewModalOpen: true,
+    })
+  }
+
+  closeWorkPreviewModal = () => {
+    this.setState({
+      workPreviewModalOpen: false,
+    })
+  }
+
   render() {
     return (
       <div className="ourWork" id="ourWork">
-        <OurWork images={this.images} />
+        {this.state.workPreviewModalOpen && (
+          <WorkPreviewModal
+            closeWorkPreviewModal={this.closeWorkPreviewModal}
+            images={this.images}
+          />
+        )}
+        <OurWork
+          images={this.images.slice(0, 29)}
+          openWorkPreviewModal={this.openWorkPreviewModal}
+        />
       </div>
     )
   }
