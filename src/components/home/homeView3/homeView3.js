@@ -1,13 +1,13 @@
 import React, { Fragment } from 'react'
 
-import Fist from 'images/SDFist.jpg'
+import Punch from 'images/punch.png'
 
 import './homeView3.scss'
 
 const HomeView3 = () => (
   <Fragment>
     <div className="homeView3">
-      <img src={Fist} className="homeView3-fist" />
+      <img src={Punch} className="homeView3-fist" alt="punch" />
     </div>
   </Fragment>
 )

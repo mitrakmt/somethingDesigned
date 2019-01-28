@@ -3,50 +3,56 @@ import React, { Fragment } from 'react'
 import './homeView2.scss'
 
 const firstColumn = [
-  'NEW',
-  'WRITTEN…',
-  'RE-WRITTEN',
-  'HEARD',
-  'FELT',
-  'LOVED',
-  'FUN!',
-  'DOODLED',
-  'NOODLED?...',
-  'NOODLED (ON)',
-  'DREAMED',
+  'new',
+  'written...',
+  're-written',
+  'heard',
+  'felt',
+  'loved',
+  'fun!',
+  'doodled',
+  'noodled?...',
+  'noodled (on)',
+  'dreamed',
 ]
 
 const secondColumn = [
-  'DRAWN',
-  'PRESENTED',
-  'WON',
-  'BUILT',
-  'POWERFUL',
-  'CRAZY!!!',
-  'COOL',
-  'LOUD',
-  'SUBTLE',
-  'DIFFERENT',
+  'drawn',
+  'presented',
+  'won',
+  'built',
+  'powerful',
+  'crazy!!!',
+  'cool',
+  'loud',
+  'subtle',
+  'different',
 ]
 
-const thirdColumn = ['TRUE', 'THAT', 'IS', 'YOU', 'DESIGNED']
+const thirdColumn = ['true', 'that', 'is', 'you', 'designed']
 
 const HomeView2 = () => (
   <Fragment>
     <div className="homeView2">
       <div className="homeView2-col">
         {firstColumn.map(word => (
-          <p className="homeView2-text">{word}</p>
+          <p className="homeView2-text" key={`homeView2-${word}`}>
+            {word}
+          </p>
         ))}
       </div>
       <div className="homeView2-col">
         {secondColumn.map(word => (
-          <p className="homeView2-text">{word}</p>
+          <p className="homeView2-text" key={`homeView2-${word}`}>
+            {word}
+          </p>
         ))}
       </div>
-      <div className="homeView2-col-centered">
+      <div className="homeView2-col--centered">
         {thirdColumn.map(word => (
-          <p className="homeView2-text">{word}</p>
+          <p className="homeView2-text" key={`homeView2-${word}`}>
+            {word}
+          </p>
         ))}
         <p className="homeView2-blackText">(insert punch)</p>
       </div>

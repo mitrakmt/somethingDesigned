@@ -14,6 +14,7 @@
     color: rgba(254, 113, 92, 0.71);
     text-align: center;
     margin: 0;
+    text-transform: uppercase;
   }
 
   &-medium {
@@ -21,6 +22,7 @@
     color: rgba(254, 113, 92, 0.97);
     text-align: center;
     margin: 0;
+    text-transform: uppercase;
   }
 
   &-large {
@@ -28,5 +30,6 @@
     color: #fe2020;
     text-align: center;
     margin: 0;
+    text-transform: uppercase;
   }
 }

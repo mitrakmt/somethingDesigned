@@ -1,0 +1,14 @@
+.ourWork {
+  max-height: 100%;
+  &-grid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    &-image {
+      max-width: 250px;
+      max-height: 150px;
+      padding: 5px;
+    }
+  }
+}
