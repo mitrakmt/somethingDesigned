@@ -11,6 +11,9 @@ const WhoWeAreView = () => (
         <h1 className="whoWeAreView-title">We Can Turn Something</h1>
         <span className="whoWeAreView-subtitle">(Great)</span>
       </div>
+      <div className="whoWeAreView-borderContainer">
+        <div className="whoWeAreView-border" />
+      </div>
       <div className="whoWeAreView-textContainer">
         <p className="whoWeAreView-text">
           The team at Something Designed is packed full of professional miracle

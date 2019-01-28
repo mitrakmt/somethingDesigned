@@ -1,11 +1,21 @@
 .whoWeAreView {
+  &-border {
+    border: 2px solid #FFFFFF;
+    margin: auto;
+    width: 89px;
+  }
+  &-borderContainer {  
+    height: 5px;
+    padding: 25px;
+    width: 100vw;
+  }
   &-subtitle {
     color: #ffffff;
     font-family: Nanum Pen Script;
     font-size: 30px;
     display: inline-block;
     text-align: right;
-    width: 50vw;
+    width: 20vw;
   }
   &-text {
     font-family: Helvetica;
@@ -20,6 +30,9 @@
     color: #ffd3d3;
     font-family: Helvetica;
     font-size: 64px;
+    margin: auto;
+    margin-bottom: 15px;
+    max-width: 475px;
     text-transform: uppercase;
   }
   &-titleContainer {
