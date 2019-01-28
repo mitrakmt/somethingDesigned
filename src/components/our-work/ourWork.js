@@ -5,7 +5,7 @@ import './ourWork.scss'
 const OurWork = props => (
   <Fragment>
     <div className="ourWork">
-      <div className="ourWork-grid">
+      <div className="ourWork-grid" onClick={props.openWorkPreviewModal}>
         {props.images.map(image => (
           <img
             src={image}
