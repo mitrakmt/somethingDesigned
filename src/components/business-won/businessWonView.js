@@ -7,14 +7,14 @@ const businessWonView = () => (
     <div className="businessWonColumn-header">
       <div className="businessWonColumn-verticalRule" />
       <h2>
-        OUR BUSINESS <br />
-        WINS BUSINESS
+        our business <br />
+        wins business
       </h2>
     </div>
     <div className="businessWonColumn-textContainer">
       <p className="businessWonColumn-textContainer-text">
-        OUR WORK HAS HELPED OUR CLIENTS BE AWARDED BUSINESS FROM FORTUNE 500
-        COMPANIES, MAJOR BRANDS AND ENTERTAINMENT PROPERTIES SUCH AS:
+        our work has helped our clients be awarded business from fortune 500
+        companies, major brands and entertainment properties such as:
       </p>
       <div className="businessWonColumn-list">
         <div className="businessWonColumn-list-column">
