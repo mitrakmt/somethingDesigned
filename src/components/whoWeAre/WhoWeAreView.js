@@ -9,7 +9,7 @@ const WhoWeAreView = () => (
     <div className="whoWeAreView">
       <div className="whoWeAreView-titleContainer">
         <h1 className="whoWeAreView-title">We Can Turn Something</h1>
-        <p className="whoWeAreView-subtitle">Great</p>
+        <span className="whoWeAreView-subtitle">(Great)</span>
       </div>
       <div className="whoWeAreView-textContainer">
         <p className="whoWeAreView-text">

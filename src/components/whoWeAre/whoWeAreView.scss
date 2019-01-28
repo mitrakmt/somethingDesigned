@@ -1,21 +1,17 @@
 .whoWeAreView {
-  // display: grid;
   &-title {
     font-family: Helvetica;
     font-size: 64px;
     color: #ffd3d3;
-    text-align: center;
     text-transform: uppercase;
-    width: 475px;
-
-    align-self: center;
-    justify-self: center;
   }
   &-subtitle {
     font-family: Nanum Pen Script;
     font-size: 30px;
     color: #ffffff;
-    text-align: center;
+    width: 75vw;
+    display: inline-block;
+    text-align: right;
   }
   &-text {
     font-family: Helvetica;
@@ -27,12 +23,7 @@
     padding: 150px;
   }
   &-titleContainer {
-    display: grid;
+    text-align: center;
     
   }
-}
-
-
-.mariahsFace {
-  display: 'pretty'
 }
