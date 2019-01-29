@@ -17,7 +17,7 @@ const skillsView = () => (
     </div>
     <div className="skillsColumn-descriptions">
       {listOfDescriptions.map(description => (
-        <p>{description}</p>
+        <p className="description">{description}</p>
       ))}
     </div>
   </Fragment>

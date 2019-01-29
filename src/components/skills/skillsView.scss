@@ -1,11 +1,19 @@
 .skillsColumn {
   &-descriptions {
     font-family: 'Helvetica';
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 500;
     color: #ffffff;
     text-align: justify;
     text-transform: uppercase;
+
+    .description {
+      padding: 2rem 0;
+
+      @media screen and (max-width: 1366px) {
+        padding: 0.75rem 0;
+      }
+    }
   }
   &-header {
     font-family: 'Helvetica';
@@ -13,21 +21,29 @@
     text-align: center;
 
     h2 {
-      font-size: 90px;
+      font-size: 5.625rem;
       font-weight: 500;
       background-color: #fe5c5c;
       padding: 50px 0;
       position: relative;
       text-transform: uppercase;
       z-index: 2;
+
+      @media screen and (max-width: 800px) {
+        font-size: 2rem;
+      }
     }
   }
   &-list {
     font-family: 'Nanum Pen Script';
-    font-size: 48px;
+    font-size: 3rem;
     color: #ffffff;
     text-align: justify;
     text-transform: uppercase;
+
+    @media screen and (max-width: 800px) {
+      font-size: 2rem;
+    }
   }
   &-verticalRule {
     border: none;
