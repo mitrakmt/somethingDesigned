@@ -12,12 +12,17 @@ const skillsView = () => (
     </div>
     <div className="skillsColumn-list">
       {listOfSkills.map(skill => (
-        <p>{skill}</p>
+        <p key={`skillsView-name-${skill}`}>{skill}</p>
       ))}
     </div>
     <div className="skillsColumn-descriptions">
       {listOfDescriptions.map(description => (
-        <p className="description">{description}</p>
+        <p
+          className="description"
+          key={`skillsView-description-${description}`}
+        >
+          {description}
+        </p>
       ))}
     </div>
   </Fragment>
