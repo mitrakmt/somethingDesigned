@@ -47,6 +47,24 @@
     animation-fill-mode: forwards;
     animation-delay: 1.5s;
   }
+
+  &-arrow {
+    font-size: 25px;
+    color: black;
+    opacity: 0;
+    font-weight: 200;
+    transform: rotate(90deg);
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    bottom: 30px;
+    margin-left: 50%;
+    text-transform: uppercase;
+    animation: blink 1.3s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-delay: 2.5s;
+  }
 }
 
 @keyframes fadeIn {
@@ -55,5 +73,17 @@
   }
   100% {
     opacity: 1;
+  }
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
   }
 }

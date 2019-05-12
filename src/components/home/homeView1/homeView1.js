@@ -8,6 +8,7 @@ const HomeView1 = () => (
       <h2 className="homeView1-small">some</h2>
       <h2 className="homeView1-medium">thing</h2>
       <h2 className="homeView1-large">fun</h2>
+      <h2 className="homeView1-arrow">>></h2>
     </div>
   </Fragment>
 )

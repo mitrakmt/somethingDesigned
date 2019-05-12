@@ -12,6 +12,10 @@
     color: rgba(254, 113, 92, 0.71);
     text-align: center;
     margin: 0;
+
+    @media screen and (max-width: 566px) {
+      font-size: 45px;
+    }
   }
 
   &-medium {
@@ -19,6 +23,10 @@
     color: rgba(254, 113, 92, 0.97);
     text-align: center;
     margin: 0;
+
+    @media screen and (max-width: 566px) {
+      font-size: 55px;
+    }
   }
 
   &-large {
@@ -26,6 +34,10 @@
     color: #fe2020;
     text-align: center;
     margin: 0;
+
+    @media screen and (max-width: 566px) {
+      font-size: 65px;
+    }
   }
 
   &-subtitle {
@@ -33,5 +45,12 @@
     color: #fe2020;
     text-align: center;
     margin: 0;
+
+    @media screen and (max-width: 566px) {
+      margin-top: 25px;
+      width: 85%;
+      margin-left: auto;
+      margin-right: auto;
+    }
   }
 }
