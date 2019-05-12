@@ -2,13 +2,18 @@
   padding: 100px 0;
 
   &-border {
-    border: 2px solid #FFFFFF;
+    border: 2px solid #ffffff;
     margin: auto;
     width: 89px;
+
+    @media screen and (max-width: 566px) {
+      width: 55px;
+      border: 1px solid #ffffff;
+    }
   }
-  &-borderContainer {  
+  &-borderContainer {
     height: 5px;
-    padding: 25px;
+    padding-top: 25px;
     width: 100vw;
   }
   &-subtitle {
@@ -21,6 +26,7 @@
 
     @media screen and (max-width: 800px) {
       width: 40vw;
+      font-size: 25px;
     }
   }
   &-text {
@@ -28,18 +34,31 @@
     font-size: 24px;
     color: #ffffff;
     text-align: justify;
+
+    @media screen and (max-width: 566px) {
+      font-size: 18px;
+      width: 100%;
+    }
   }
   &-textContainer {
     padding: 150px;
+
+    @media screen and (max-width: 566px) {
+      padding: 35px;
+    }
   }
   &-title {
     color: #ffd3d3;
     font-family: Helvetica;
     font-size: 64px;
     margin: auto;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
     max-width: 475px;
     text-transform: uppercase;
+
+    @media screen and (max-width: 566px) {
+      font-size: 35px;
+    }
   }
   &-titleContainer {
     text-align: center;

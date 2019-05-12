@@ -9,6 +9,10 @@
       width: 30%;
     }
 
+    @media screen and (max-width: 566px) {
+      padding: 0 0 0 20px;
+    }
+
     h2 {
       font-size: 70px;
       font-weight: 500;
@@ -21,6 +25,11 @@
       @media screen and (max-width: 1366px) {
         font-size: 72px;
       }
+
+      @media screen and (max-width: 566px) {
+        font-size: 20px;
+        padding: 30px 0;
+      }
     }
   }
   &-textContainer {
@@ -30,6 +39,7 @@
     @media screen and (max-width: 1300px) {
       text-align: center;
     }
+
     &-text {
       font-family: 'Nanum Pen Script';
       font-size: 36px;
