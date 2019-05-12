@@ -12,12 +12,12 @@ const clientsView = () => (
     <div className="clientsColumn-list">
       <div className="clientsColumn-list-column">
         {listOfClients.column1.map(client => (
-          <p>{client}</p>
+          <p key={`clientsView-client1-${client}`}>{client}</p>
         ))}
       </div>
       <div className="clientsColumn-list-column">
         {listOfClients.column2.map(client => (
-          <p>{client}</p>
+          <p key={`clientsView-client2-${client}`}>{client}</p>
         ))}
       </div>
     </div>
