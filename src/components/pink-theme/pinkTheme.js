@@ -7,7 +7,7 @@ const pinkTheme = props => (
     <div className="pinkTheme-verticalRule" />
     <div className="pinkTheme-header">
       <h2>
-        {props.titleWordOne}{' '}
+        {props.titleWordOne}
         <span className="pinkTheme-header-coloredText">
           {props.titleWordTwo}
         </span>

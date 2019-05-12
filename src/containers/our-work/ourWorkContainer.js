@@ -135,15 +135,6 @@ class OurWorkContainer extends Component {
       vw4,
       vw5,
     ]
-
-    // this.images = [
-    //   [image1803_1, image1803_2, image1803_3, image1803_4, image1803_5],
-    //   [beaMiller1, beaMiller2, beaMiller3, beaMiller4, sirius1],
-    //   [coke1, coke2, coke3, coke4, coke5],
-    //   [social101_1, social101_2, social101_3, social101_4, social101_5],
-    //   [milkHoney1, milkHoney2, milkHoney3, milkHoney4, milkHoney5],
-    //   [nike1, nike2, nike3, nike4, nike5],
-    // ]
   }
 
   openWorkPreviewModal = () => {

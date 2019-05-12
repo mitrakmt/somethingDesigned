@@ -16,11 +16,21 @@
       padding-bottom: 30px;
       margin: 0;
       margin-bottom: 12vh;
-      width: 15vw;
+      width: 16vw;
+      display: flex;
+
+      @media screen and (max-width: 566px) {
+        font-size: 25px;
+      }
     }
 
     &-coloredText {
       color: #fe2020;
+      margin-top: 30px;
+
+      @media screen and (max-width: 566px) {
+        margin-top: 10px;
+      }
     }
   }
   &-quotes {
@@ -50,6 +60,10 @@
     padding-left: 0;
     margin-left: 0;
     z-index: 3;
+
+    @media screen and (max-width: 866px) {
+      font-size: 20px;
+    }
   }
   &-arrow {
     transform: rotate(90deg);

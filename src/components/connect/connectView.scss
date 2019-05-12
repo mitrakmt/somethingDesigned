@@ -12,6 +12,10 @@
     color: rgba(254, 113, 92, 0.71);
     text-align: center;
     margin: 0;
+
+    @media screen and (max-width: 566px) {
+      font-size: 45px;
+    }
   }
 
   &-medium {
@@ -19,6 +23,10 @@
     color: rgba(254, 113, 92, 0.97);
     text-align: center;
     margin: 0;
+
+    @media screen and (max-width: 566px) {
+      font-size: 45px;
+    }
   }
 
   &-large {
@@ -26,6 +34,10 @@
     color: #fe2020;
     text-align: center;
     margin: 0;
+
+    @media screen and (max-width: 566px) {
+      font-size: 65px;
+    }
   }
 
   &-holla {
@@ -36,6 +48,31 @@
     a {
       text-decoration: none;
       color: inherit;
+    }
+
+    @media screen and (max-width: 566px) {
+      animation-name: hollaAnimation;
+      animation-duration: 1.5s;
+      animation-iteration-count: infinite;
+      margin-top: 20px;
+    }
+
+    &:hover {
+      animation-name: hollaAnimation;
+      animation-duration: 1s;
+      animation-iteration-count: infinite;
+    }
+
+    @keyframes hollaAnimation {
+      0% {
+        color: rgba(254, 113, 92, 0.71);
+      }
+      50% {
+        color: #fe2020;
+      }
+      100% {
+        color: rgba(254, 113, 92, 0.71);
+      }
     }
   }
 }
