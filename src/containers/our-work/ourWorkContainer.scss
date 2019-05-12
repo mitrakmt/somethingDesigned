@@ -7,4 +7,6 @@
   max-width: 100vw;
   padding: 30px 60px;
   overflow: hidden;
+  // Use hardware acceleration on this layer to allow smooth scrolling with scroll snap points
+  -webkit-transform: translate3d(0,0,0);
 }
