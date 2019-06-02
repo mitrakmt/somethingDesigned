@@ -5,12 +5,22 @@
     width: 100%;
     padding: 0 0 0 100px;
 
-    @media screen and (min-width: 1500px) {
+    @media screen and (max-width: 1500px) {
       width: 30%;
+      padding: 0 0 0 50px;
+    }
+
+    @media screen and (max-width: 1100px) {
+      padding: 0 0 0 60px;
+    }
+
+    @media screen and (max-width: 900px) {
+      padding: 0 0 0 40px;
     }
 
     @media screen and (max-width: 566px) {
       padding: 0 0 0 20px;
+      width: 25%;
     }
 
     h2 {
@@ -22,12 +32,16 @@
       text-transform: uppercase;
       z-index: 2;
 
-      @media screen and (max-width: 1366px) {
-        font-size: 72px;
+      @media screen and (max-width: 1566px) {
+        font-size: 55px;
+      }
+
+      @media screen and (max-width: 1266px) {
+        font-size: 35px;
       }
 
       @media screen and (max-width: 566px) {
-        font-size: 20px;
+        font-size: 18px;
         padding: 30px 0;
       }
     }
@@ -40,11 +54,23 @@
       text-align: center;
     }
 
+    @media screen and (max-width: 800px) {
+      padding: 10px;
+    }
+
     &-text {
       font-family: 'Nanum Pen Script';
       font-size: 36px;
       color: #ffffff;
       text-transform: uppercase;
+
+      @media screen and (max-width: 1200px) {
+        font-size: 22px;
+      }
+
+      @media screen and (max-width: 800px) {
+        font-size: 16px;
+      }
     }
   }
   &-list {
@@ -58,18 +84,42 @@
     align-items: center;
     justify-content: center;
 
-    @media screen and (max-width: 1366px) {
+    @media screen and (max-width: 1466px) {
       font-size: 38px;
+    }
+
+    @media screen and (max-width: 1200px) {
+      font-size: 28px;
+    }
+
+    @media screen and (max-width: 800px) {
+      font-size: 14px;
     }
 
     &-column {
       &:first-of-type {
         text-align: right;
         margin-right: 150px;
+
+        @media screen and (max-width: 1200px) {
+          margin-right: 60px;
+        }
+
+        @media screen and (max-width: 800px) {
+          margin-right: 40px;
+        }
       }
       font-family: 'Nanum Pen Script';
       font-size: 36px;
       color: #ffffff;
+
+      @media screen and (max-width: 1200px) {
+        font-size: 22px;
+      }
+
+      @media screen and (max-width: 800px) {
+        font-size: 14px;
+      }
     }
   }
   &-verticalRule {
