@@ -34,7 +34,7 @@ const thirdColumn = ['true', 'that', 'is', 'you', 'designed']
 const HomeView2 = () => (
   <Fragment>
     <div className="homeView2">
-      <div className="homeView2-col">
+      <div className="homeView2-col homeView2-mobileCol">
         {firstColumn.map(word => (
           <p className="homeView2-text" key={`homeView2-${word}`}>
             {word}
