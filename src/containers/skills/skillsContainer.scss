@@ -1,10 +1,18 @@
 #skills {
   align-items: center;
-  background-color: #FE5C5C;
+  background-color: #fe5c5c;
   color: #fff;
   display: grid;
   grid-template-columns: 25% 37% 37%;
   height: 100vh;
   position: relative;
   scroll-snap-align: start;
+
+  @media screen and (max-width: 1200px) {
+    grid-template-columns: 23% 32% 43%;
+  }
+
+  @media screen and (max-width: 800px) {
+    grid-template-columns: 20% 28% 50%;
+  }
 }
