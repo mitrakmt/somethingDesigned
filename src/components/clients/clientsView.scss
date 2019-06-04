@@ -17,6 +17,10 @@
       @media screen and (max-width: 1366px) {
         font-size: 72px;
       }
+
+      @media screen and (max-width: 1200px) {
+        font-size: 1rem;
+      }
     }
   }
   &-list {
@@ -32,6 +36,10 @@
 
     @media screen and (max-width: 1366px) {
       font-size: 38px;
+    }
+
+    @media screen and (max-width: 1200px) {
+      font-size: 1rem;
     }
 
     &-column {
