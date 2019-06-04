@@ -7,4 +7,42 @@
   height: 100vh;
   scroll-snap-align: start;
   position: relative;
+
+  .inTheirContainer {
+    &-dot {
+      height: 15px;
+      width: 15px;
+      background-color: rgb(255, 255, 255);
+      border-radius: 50%;
+      display: inline-block;
+      margin: 20px;
+      transition-duration: 0.2s;
+
+      &:hover {
+        background-color: #fe1f1f;
+        cursor: pointer;
+      }
+    }
+
+    &-selected {
+      background-color: #fe1f1f;
+    }
+
+    &-quoteNavigation {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      position: absolute;
+      bottom: 50px;
+      margin-left: 75px;
+
+      @media screen and (max-width: 850px) {
+        flex-direction: column;
+        margin-left: auto;
+        align-items: flex-end;
+        height: 100%;
+      }
+    }
+  }
 }
