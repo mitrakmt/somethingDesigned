@@ -35,8 +35,13 @@
     color: #ffffff;
     text-align: justify;
 
+    @media screen and (max-width: 1000px) {
+      font-size: 20px;
+      width: 100%;
+    }
+
     @media screen and (max-width: 566px) {
-      font-size: 18px;
+      font-size: 16px;
       width: 100%;
     }
   }

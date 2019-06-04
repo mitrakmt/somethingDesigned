@@ -72,6 +72,7 @@ class InTheirContainer extends Component {
         <div className="inTheirContainer-quoteNavigation">
           {this.quotes.map((quote, index) => (
             <span
+              key={`inTheirContainer-quote-${quote}`}
               className={`inTheirContainer-dot ${
                 this.state.selectedQuote === index
                   ? 'inTheirContainer-selected'

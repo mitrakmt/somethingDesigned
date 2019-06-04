@@ -1,16 +1,31 @@
 .ourWork {
   max-height: 100%;
+
   &-grid {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+
+    @media screen and (max-width: 600px) {
+      justify-content: center;
+    }
 
     &-image {
       max-width: 250px;
       max-height: 150px;
       padding: 5px;
       flex: 1 0 10%;
+      margin: 3px;
       cursor: pointer;
+
+      @media screen and (max-width: 600px) {
+        max-width: 95%;
+        flex: 1;
+
+        &:nth-child(n + 5) {
+          display: none;
+        }
+      }
     }
   }
 }
