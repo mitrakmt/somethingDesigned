@@ -5,8 +5,8 @@
   scroll-snap-align: start;
   max-height: 100vh;
   max-width: 100vw;
-  padding: 30px 60px;
+  padding: 5px 50px;
   overflow: hidden;
   // Use hardware acceleration on this layer to allow smooth scrolling with scroll snap points
-  -webkit-transform: translate3d(0,0,0);
+  -webkit-transform: translate3d(0, 0, 0);
 }
