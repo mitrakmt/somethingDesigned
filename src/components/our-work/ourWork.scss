@@ -5,12 +5,22 @@
     justify-content: space-between;
     flex-wrap: wrap;
 
+    @media screen and (max-width: 600px) {
+      justify-content: center;
+    }
+
     &-image {
       max-width: 250px;
       max-height: 150px;
       padding: 5px;
       flex: 1 0 10%;
       cursor: pointer;
+
+      @media screen and (max-width: 600px) {
+        max-width: 85%;
+        flex: 1;
+        margin-bottom: 20px;
+      }
     }
   }
 }

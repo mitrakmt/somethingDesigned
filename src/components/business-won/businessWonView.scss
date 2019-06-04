@@ -2,7 +2,6 @@
   &-header {
     font-family: 'Helvetica';
     color: #ffffff;
-    width: 100%;
     padding: 0 0 0 100px;
 
     @media screen and (max-width: 1500px) {
@@ -24,7 +23,7 @@
     }
 
     h2 {
-      font-size: 70px;
+      font-size: 60px;
       font-weight: 500;
       background-color: #fe5c5c;
       padding: 50px 0;
