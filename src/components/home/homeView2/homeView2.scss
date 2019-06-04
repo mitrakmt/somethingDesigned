@@ -6,9 +6,18 @@
   height: 100vh;
   scroll-snap-align: start;
 
+  @media only screen and (max-width: 736px) {
+    padding: 10vh;
+  }
+
   &-col {
     flex-grow: 1;
     padding: 30px;
+
+    @media only screen and (max-width: 736px) {
+      display: none;
+    }
+
     &--centered {
       padding: 30px;
       height: 80%;
@@ -16,6 +25,16 @@
       & * {
         margin-bottom: 6vh !important;
       }
+
+      @media only screen and (max-width: 736px) {
+        display: none;
+      }
+    }
+  }
+
+  &-mobileCol {
+    @media only screen and (max-width: 736px) {
+      display: block;
     }
   }
 
@@ -25,6 +44,14 @@
     color: #fe2020;
     text-transform: uppercase;
     margin: 0;
+    
+    @media only screen and (max-width: 800px) {
+      font-size: 32px;
+    }
+
+    @media only screen and (max-width: 414px) {
+      font-size: 42px;
+    }
   }
   &-blackText {
     font-family: helvetica;
