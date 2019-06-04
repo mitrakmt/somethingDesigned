@@ -6,6 +6,10 @@
   height: 100vh;
   scroll-snap-align: start;
 
+  @media only screen and (max-width: 600px) {
+    padding: 10vh;
+  }
+
   &-col {
     flex-grow: 1;
     padding: 30px;
