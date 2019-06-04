@@ -54,6 +54,12 @@ class InTheirContainer extends Component {
     clearInterval(this.rotateQuotes)
   }
 
+  selectQuote = index => {
+    this.setState({
+      selectedQuote: index,
+    })
+  }
+
   render() {
     return (
       <div className="inTheirContainer" id="inTheir">
@@ -63,6 +69,20 @@ class InTheirContainer extends Component {
           description={this.quotes[this.state.selectedQuote]}
           quotes
         />
+        <div className="inTheirContainer-quoteNavigation">
+          {this.quotes.map((quote, index) => (
+            <span
+              className={`inTheirContainer-dot ${
+                this.state.selectedQuote === index
+                  ? 'inTheirContainer-selected'
+                  : ''
+              }`}
+              onClick={() => {
+                this.selectQuote(index)
+              }}
+            />
+          ))}
+        </div>
       </div>
     )
   }
