@@ -30,8 +30,8 @@
     }
   }
   &-text {
-    font-family: Helvetica;
-    font-size: 24px;
+    font-family: Nanum Pen Script;
+    font-size: 27px;
     color: #ffffff;
     text-align: justify;
 
@@ -46,7 +46,7 @@
     }
   }
   &-textContainer {
-    padding: 150px;
+    padding: 100px 150px 150px 150px;
 
     @media screen and (max-width: 566px) {
       padding: 35px;
@@ -61,7 +61,7 @@
     max-width: 475px;
     text-transform: uppercase;
 
-    @media screen and (max-width: 566px) {
+    @media screen and (max-width: 600px) {
       font-size: 35px;
     }
   }

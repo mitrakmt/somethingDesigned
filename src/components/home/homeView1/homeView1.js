@@ -2,17 +2,6 @@ import React, { Fragment, Component } from 'react'
 import Punch from 'images/punch.png'
 import './homeView1.scss'
 
-// const HomeView1 = () => (
-//   <Fragment>
-//     <div className="homeView1">
-//       <h2 className="homeView1-small">some</h2>
-//       <h2 className="homeView1-medium">thing</h2>
-//       <h2 className="homeView1-large">{}</h2>
-//       <h2 className="homeView1-arrow">>></h2>
-//     </div>
-//   </Fragment>
-// )
-
 class HomeView1 extends Component {
   constructor(props) {
     super(props)
