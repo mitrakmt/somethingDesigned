@@ -7,6 +7,7 @@ class InTheirContainer extends Component {
     super(props)
     this.state = {
       selectedQuote: 0,
+      flag: false,
     }
 
     this.titleWordOne = 'In'
@@ -36,22 +37,30 @@ class InTheirContainer extends Component {
       Elka Worner, Los Angeles Bureau Chief, FOX BUSINESS NETWORK`,
     ]
 
-    this.rotateQuotes = setInterval(() => {
-      let quoteId = this.state.selectedQuote + 1
-      if (quoteId >= this.quotes.length) {
-        this.setState({
-          selectedQuote: 0,
-        })
-      } else {
-        this.setState({
-          selectedQuote: quoteId,
-        })
-      }
-    }, 5000)
-  }
+    this.rotateQuotes = () => {
+      setInterval(() => {
+        let quoteId = this.state.selectedQuote + 1
+        if (this.state.flag) {
+          clearInterval(this.rotateQuotes)
+        } else {
+          this.setState({
+            selectedQuote: quoteId,
+          })
+        }
+        if (quoteId >= this.quotes.length) {
+          this.setState({
+            selectedQuote: 0,
+          })
+        }
+      }, 7000)
+    }
 
-  componentWillUnmount() {
-    clearInterval(this.rotateQuotes)
+    this.stopQuotes = () => {
+      this.setState({
+        flag: true,
+      })
+      this.rotateQuotes()
+    }
   }
 
   selectQuote = index => {
@@ -62,7 +71,11 @@ class InTheirContainer extends Component {
 
   render() {
     return (
-      <div className="inTheirContainer" id="inTheir">
+      <div
+        className="inTheirContainer"
+        id="inTheir"
+        onMouseEnter={() => this.rotateQuotes()}
+      >
         <PinkTheme
           titleWordOne={this.titleWordOne}
           titleWordTwo={this.titleWordTwo}
@@ -79,6 +92,7 @@ class InTheirContainer extends Component {
                   : ''
               }`}
               onClick={() => {
+                this.stopQuotes()
                 this.selectQuote(index)
               }}
             />

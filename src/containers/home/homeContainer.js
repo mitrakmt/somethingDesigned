@@ -10,8 +10,8 @@ class HomeContainer extends Component {
     return (
       <div className="HomeContainer" id="home">
         <Home1 />
-        <Home2 />
-        <Home3 />
+        {/* <Home2 /> */}
+        {/* <Home3 /> */}
       </div>
     )
   }
