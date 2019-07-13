@@ -9,6 +9,12 @@
   scroll-snap-align: start;
   position: relative;
 
+  &-fist {
+    width: 60%;
+    position: absolute;
+    margin-left: 20%;
+  }
+
   &-small {
     font-size: 90px;
     color: rgba(254, 113, 92, 0.71);
@@ -46,6 +52,10 @@
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
     animation-delay: 1.5s;
+
+    @media only screen and (max-width: 736px) {
+      font-size: 80px;
+    }
   }
 
   &-arrow {

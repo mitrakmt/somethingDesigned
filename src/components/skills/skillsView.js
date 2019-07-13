@@ -16,12 +16,24 @@ const skillsView = () => (
       ))}
     </div>
     <div className="skillsColumn-descriptions">
-      {listOfDescriptions.map(description => (
+      {listOfDescriptions.column1.map(description => (
         <p
           className="description"
           key={`skillsView-description-${description}`}
         >
           {description}
+        </p>
+      ))}
+    </div>
+
+    <div className="skillsColumn-descriptions-alt">
+      {listOfDescriptions.column2.map(word => (
+        <p
+          className="skillsColumn-descriptions-alt-p"
+          key={`skillsView-column2-${word}`}
+        >
+          {' '}
+          {word}{' '}
         </p>
       ))}
     </div>
